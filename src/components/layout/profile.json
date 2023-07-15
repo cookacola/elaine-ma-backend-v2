@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_layout_profiles",
+  "info": {
+    "displayName": "Profile",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "profileTitle": {
+      "type": "string",
+      "required": true
+    },
+    "profileDescription": {
+      "type": "richtext"
+    },
+    "profilePicture": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "profileLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utility.link"
+    }
+  }
+}

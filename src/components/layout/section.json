@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

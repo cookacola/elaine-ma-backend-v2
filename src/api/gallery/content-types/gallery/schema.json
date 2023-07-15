@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "galleries",
+  "info": {
+    "singularName": "gallery",
+    "pluralName": "galleries",
+    "displayName": "Gallery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gallerySection": {
+      "displayName": "Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.section"
+    }
+  }
+}
